@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p,li{
+    line-height: 1.5;
+    font-size: 18px;
+}
+li{
+    position: relative;
+}
+.container{
+    width: 45vw;
+    height: auto;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    max-width: 100vw;
+    max-height: 100vh;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.details{
+    margin: 20px;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.second{
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+}
+.third{
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.input-field{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.input{
+    height: 30px;
+    font-size: 16px;
+    margin-right: 140px;
+    outline: none;
+    border-width: 2px;
+    border-image: none;
+    border-radius: 10px;
+}
+.label{
+    width: 50px;
+    margin-left: 30px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 12px 15px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    color: aliceblue;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s ease-in;
+}
+.btn-1{
+    background-color: blueviolet;
+}
+.btn-2{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+.form-heading{
+    text-align: center;
+    margin: 15px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-weight: 300;
+}
+.skills-title{
+    text-align: center;
+    margin-top: 10px;
+}
+ul{
+    list-style: none;
+}
+li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 8px;
+    left: -20px;
+}
+.btn-1:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+.btn-2:hover{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}

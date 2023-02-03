@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Form</title>
+    <link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+            <div class="details">
+                <h2>Adnan Saiyed</h2>
+                <p>adnansaiyed702@gmail.com</p>
+                <p>7557357373</p>
+                <p>Ahmedabad, Gujarat-380055</p>
+            </div>
+            <div class="image">
+                <img src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg" alt="">
+            </div>
+        </div>
+        <div class="second">
+            <p>My name is Adnan Saiyed, a 21 year old IT engineering student. I am pursuing my 
+                engineering degree from LJIET. I come from and live in Ahmedabad, Gujarat with my family.
+                My hobbies are watching movies, learning, coding and cycling.
+            </p>
+            <h3 class="skills-title">Skills:</h3>
+            <div class="skills">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>MySQL</li>
+                </ul>
+                <ul>
+                    <li>CSS</li>
+                    <li>HTMl</li>
+                </ul>
+                <ul>
+                    <li>React.js</li>
+                    <li>Git/Github</li>
+                </ul>
+            </div>
+                
+        </div>
+        <div class="third">
+            <form action="">
+                <h3 class="form-heading">Form fill-up</h3>
+                <div class="input-field">
+                    <p class="label">Name: </p>
+                    <input type="text" class="input" name="name">
+                </div>
+                <div class="input-field">
+                    <p class="label">Surname: </p>
+                    <input type="text" class="input" name="surname">
+                </div>
+                <div class="input-field" >
+                    <p class="label">Email: </p>
+                    <input type="mail" class="input" name="mail">
+                </div>
+                <div class="input-field">
+                    <p class="label">Languages: </p>
+                    <div class="checkbox-field">
+                        <input type="checkbox" class="checkbox" value="Hindi">
+                        <span>Hindi</span>
+                    </div>
+                    <div class="checkbox-field">
+                        <input type="checkbox" class="checkbox" value="English">
+                        <span>English</span>
+                    </div>
+                    
+                    <div class="checkbox-field">
+                        <input type="checkbox" class="checkbox" value="Gujarati">
+                        <span>Gujarati</span>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button type="submit" class="btn btn-1" id="btn">Submit</button>
+                    <button type="reset" class="btn btn-2">Reset</button>
+                </div>
+            
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./demo.js"></script>
+</html>
